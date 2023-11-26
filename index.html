@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <div class ="back">
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+      <div class="logo">Keerthika </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Keerthika M </h1>
+        <p class="section__text__p2">Student<br/>Sri Sairam Engineering College</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1q5lbTV6Lvc0XOvG_rl8RMYY5zDn4XWt8/view?usp=sharing')"
+          >
+            Download Resume
+          </button>
+          
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Linkedin_svg-64.png"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/keerthika-m-4219b922a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '"
+            alt="My LinkedIn profile"
+          />
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Github_social_media_logo-64.png"
+            class="icon"
+            onclick="location.href='https://github.com/keerthikamurugan'"
+            alt="My Github profile"
+          />
+        </div>
+      </div>
+    </section>
+  </div>
+    <div class="back1">
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        
+    
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                class="icon"
+                src="https://cdn0.iconfinder.com/data/icons/users-android-l-lollipop-icon-pack/24/student-64.png"
+                alt="Education icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors Degree<br />Sri Sairam Engineering College<br/>CGPA:8.62</p>
+            </div>
+            <div class="details-container">
+              <img
+                class="icon"
+                src="https://cdn0.iconfinder.com/data/icons/users-android-l-lollipop-icon-pack/24/student-64.png"
+                alt="Education icon"
+              />
+              <h3>Education</h3>
+              <p>HSC<br />Govt Girls Higher Secondary School<br/>Percentage:85.56%</p>
+            </div>
+            <div class="details-container">
+                <img
+                  class="icon"
+                  src="https://cdn0.iconfinder.com/data/icons/users-android-l-lollipop-icon-pack/24/student-64.png"
+                  alt="Education icon"
+                />
+                <h3>Education</h3>
+                <p>SSLC<br />Govt [A D W] Higher Secondary School<br/>Percentage:82.80%</p>
+              </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am a dedicated and aspiring computer science student pursuing a Bachelor's degree at Sri Sai Ram Engineering College, Chennai.
+                 My academic journey has provided me with a strong foundation in various aspects of computer science, and gained a programming knowledgesuch as c,Python,java. 
+                 Through hands-on experiences and coursework, I have gained proficiency in App Development and Web Development. 
+                 I am eager to contribute my knowledge and enthusiasm to real-world projects, leveraging my skills to create innovative solutions. 
+                 As I continue to explore and expand my skill set, I am excited to collaborate and thrive in a dynamic professional environment."
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://cdn3.iconfinder.com/data/icons/arrow-outline-8/32/down_2_1-64.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+           <!-- <h2 class="experience-sub-title">Frontend Development</h2>-->
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>C</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>App Development</h3>
+                  
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>Html</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>Xml</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>Canva</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-checkmark-circled-256.png"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <img
+        src="https://cdn3.iconfinder.com/data/icons/arrow-outline-8/32/down_2_1-64.png"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        alt=""
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h3 class="experience-sub-title project-title">OCR BASED TRANSLITERATION OF BRAHMI TO TAMIL USING CNN</h3>
+            <p>My project,OCR based transliteration of ancient Brahmi script to modern tamil emphasizes in the conversion of Brahmi 
+              script to tamil in order tp preserve the ancient culture and history,thereby fostering it to the future generation </p>
+            <div class="btn-container">
+            
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/';"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">VEIH-PERSONAL PORTFOLIO WEBSITE</h2>
+            <p>Creating a dynamic personal portfolio website to showcase my skills, projects, and experiences. 
+              Utilizing modern design and interactive elements to engage visitors and highlight my achievements.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/keerthikamurugan;'"
+              >
+                GitHub
+              </button>
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+
+            </div>
+            <h2 class="experience-sub-title project-title">ANDROID STUDIO-INSTACLONE</h2>
+            <p>Developing an Instagram clone project using Android Studio to enhance my app development skills. Creating features such as user authentication, image sharing, likes, comments, 
+              and a clean user interface to gain practical experience in building social media applications</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/keerthikamurugan;'"
+              >
+                GitHub
+              </button> 
+            </div>
+          </div>
+        </div>
+      </div>
+   <!-- Projects Section -->
+   <section id="project">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="title">Current Project Works</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h2>OCR Based Transliteration Of Brahmi To Tamil Using CNN</h2>
+            <p>My project,OCR based transliteration of ancient Brahmi script to modern tamil emphasizes in the conversion of Brahmi 
+              script to tamil in order tp preserve the ancient culture and history,thereby fostering it to the future generation </p>
+          </div>
+        </div>
+        <div class="steps">
+          <h1>STEPS</h1>
+        </div>
+
+        <div class="images">
+          
+          <figure>
+               <img src="project.jpg" alt="step1">
+              
+           </figure>
+           <figure>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+      <img
+        src="https://cdn3.iconfinder.com/data/icons/arrow-outline-8/32/down_2_1-64.png"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        alt=""
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-64.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">sec21cs121@sairamtap.edu.in</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Linkedin_svg-64.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="https://www.linkedin.com/in/keerthika-m-4219b922a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Keerthika.</p>
+    </footer>
+    <script src="script.js"></script>
+   </div>
+  </body>
+</html>
